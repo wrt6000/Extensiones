@@ -33,7 +33,7 @@ define(['controller/_championShipController','delegate/championShipDelegate'], f
             //los parámetros no me están llegando....
             var avg = parms.startDate;
             alert("a");
-            alert('El promedio de edad del deporte es: ' + avg);
+            alert('');
         }
     });
     return App.Controller.ChampionShipController;

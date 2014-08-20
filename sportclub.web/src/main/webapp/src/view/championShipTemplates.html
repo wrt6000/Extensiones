@@ -18,7 +18,7 @@
 		<td><%= htmlEncode(championShip.getDisplay('startDate')) %></td>
 		<td><%= htmlEncode(championShip.getDisplay('endDate')) %></td>
                
-                <td><a onclick="Backbone.trigger('<%= componentId %>-championchip-costo',{startDate<%= htmlEncode(sport.getDisplay('startDate')) %>,endDate:<%= htmlEncode(sport.getDisplay('endDate')) %>}); return false;" >Calcular Costo</a></td> return false;" >Calcular Costo</a></td>
+                <td><a onclick="Backbone.trigger('<%= componentId %>-championchip-costo',{id:<%= championShip.id %>}); return false" >Calcular Costo</a></td> 
     <td>
     <% if(showEdit) {%>
     <a onclick="Backbone.trigger('<%= componentId %>-championShip-edit',{id:<%= championShip.id %>}); return false" >Editar</a> |
